@@ -15,7 +15,6 @@ namespace CleanArchitecture.Domain.Entities
         public string Title { get; set; }
 
         public string Colour { get; set; }
-        public string Symbol { get; set; }
 
         public IList<TodoItem> Items { get; set; }
     }
